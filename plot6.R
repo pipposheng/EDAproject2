@@ -14,5 +14,5 @@ ggplot(PM_Comparison, aes(factor(year), Emissions, fill = city)) +
   facet_grid(.~city) + 
   labs(x="year", y="Annual PM2.5 Emission (ton)", 
   title="Annual PM2.5 Emission from Vehicle in Baltimore City vs Los Angeles County")
-dev.print(png, file = "plot6.png", width = 480, height = 480)
+dev.print(png, file = "plot6.png", width = 640, height = 480)
 dev.off()
